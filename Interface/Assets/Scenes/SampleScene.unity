@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18028331, g: 0.2257133, b: 0.3069217, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -26027,7 +26027,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1124523713}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2066833219}
+        m_TargetAssemblyTypeName: UIController, Assembly-CSharp
+        m_MethodName: ChangeScene
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1124523713
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47296,8 +47308,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   configPanel: {fileID: 0}
   pausePanel: {fileID: 0}
-  soundVolumeSlider: {fileID: 0}
-  musicVolumeSlider: {fileID: 0}
+  soundVolumeSlider: {fileID: 1653725977}
+  musicVolumeSlider: {fileID: 1878749204}
 --- !u!1 &2068324168
 GameObject:
   m_ObjectHideFlags: 0
