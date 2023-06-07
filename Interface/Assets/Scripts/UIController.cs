@@ -16,6 +16,8 @@ public class UIController : MonoBehaviour
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape) && SceneManager.GetActiveScene().buildIndex != 0) ConfigPanel();
+
+        if (Input.GetKeyDown(KeyCode.P) && SceneManager.GetActiveScene().buildIndex != 0) PausePanel();
     }
 
     public void ChangeScene(int sceneIndex)
